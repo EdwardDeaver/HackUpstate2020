@@ -1,5 +1,7 @@
 # Is the mail here yet
 
+index.py is the only script you need to run. The rest were just test functions. 
+
 Uses TensorFlow + OpenCV to check if the Fedex or UPS truck is here, and sends me an email if it is. 
 
 ENV File parameters
