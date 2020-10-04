@@ -82,7 +82,7 @@ def sendEmail(TruckHere):
     timeObject = datetime.datetime.now()
     timestampStr = timeObject.strftime("%d-%b-%Y (%H:%M:%S.%f)")
 
-    body = TruckHere + "is here at " + timestampStr
+    body = TruckHere + " is here at " + timestampStr
     subject = "Your " + TruckHere + " is here"
 
     emailMessage = MIMEMultipart()
